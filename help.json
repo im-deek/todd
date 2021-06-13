@@ -1,0 +1,34 @@
+{
+  "Admin": [
+    {
+      "syntax": ";massnick [nick]",
+      "description": "Changes every users nickname to the specified value. Leave blank to reset them all."
+    }
+  ],
+
+  "Hackex": [
+    {
+      "syntax": ";hackexlb [posNum]",
+      "description": "Displays the monthly leaderboard."
+    },
+    {
+      "syntax": ";hackexfind [username]",
+      "description": "Displays detailed player stats."
+    }
+  ],
+
+  "Fun": [
+    {
+      "syntax": ";dmroulette [message]",
+      "description": "Sends your message in a dm to a random member of this server."
+    }
+  ],
+
+  "Miscellaneous": [
+    {
+      "syntax": ";ping",
+      "description": "Returns latency, used to check status."
+    }
+  ]
+
+}
