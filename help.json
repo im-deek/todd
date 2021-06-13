@@ -2,7 +2,7 @@
   "Admin": [
     {
       "syntax": ";massnick [nick]",
-      "description": "Changes every users nickname to the specified value. Leave blank to reset them all."
+      "description": "Changes every users nickname to the specified value. Leave blank to reset them all. Currently requires authorisation."
     }
   ],
 

@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands, tasks
 import os
 import json
+import keep_alive
 
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix=";",intents=intents)
@@ -77,6 +78,9 @@ for file in os.listdir("./cogs"):
     if file.endswith(".py"):
         client.load_extension(f"cogs.{file[:-3]}")
 
+# // Uptime alive thing //
+
+keep_alive.keep_alive()
 
 # // Run //
 
